@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dragonscale Cresties</title>
+
+<style>
+:root{
+  --bg:#0f1b26;
+  --card:#162636;
+  --gold:#d6b26e;
+  --text:#eaeaea;
+  --muted:#9aa7b2;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+
+header{
+  text-align:center;
+  padding:40px 20px;
+}
+
+header img{
+  max-width:180px;
+  border-radius:50%;
+}
+
+nav{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-top:20px;
+}
+
+nav a{
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:bold;
+}
+
+section{
+  padding:60px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+h2{
+  color:var(--gold);
+  margin-bottom:20px;
+  text-align:center;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:var(--card);
+  border-radius:12px;
+  padding:15px;
+  text-align:center;
+}
+
+.card img{
+  width:100%;
+  border-radius:10px;
+}
+
+.price{
+  color:var(--gold);
+  font-weight:bold;
+  margin-top:10px;
+}
+
+.button{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 18px;
+  border-radius:20px;
+  background:var(--gold);
+  color:#000;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.textbox{
+  background:var(--card);
+  padding:20px;
+  border-radius:12px;
+  color:var(--muted);
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  color:var(--muted);
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png" alt="Dragonscale Cresties Logo">
+  <h1>Dragonscale Cresties</h1>
+  <nav>
+    <a href="#available">Available</a>
+    <a href="#breeders">Breeders</a>
+    <a href="#care">Care Guide</a>
+    <a href="#terms">Terms</a>
+    <a href="https://www.instagram.com/dragonscale_cresties/" target="_blank">Contact</a>
+  </nav>
+</header>
+
+<section id="available">
+<h2>Available Geckos</h2>
+<div class="grid">
+
+<div class="card">
+  <img src="placeholder.jpg">
+  <h3>Tricolor Juvenile</h3>
+  <div class="price">2500 NOK</div>
+  <a class="button" href="https://www.instagram.com/dragonscale_cresties/" target="_blank">Contact</a>
+  <div class="textbox">Write gecko info here.</div>
+</div>
+
+</div>
+</section>
+
+<section id="breeders">
+<h2>Breeding Animals</h2>
+
+<h3 style="text-align:center;color:var(--gold)">Males</h3>
+<div class="grid">
+<div class="card">
+<img src="placeholder.jpg">
+<h3>Male Name</h3>
+<div class="textbox">Write breeder info here.</div>
+</div>
+</div>
+
+<br>
+
+<h3 style="text-align:center;color:var(--gold)">Females</h3>
+<div class="grid">
+<div class="card">
+<img src="placeholder.jpg">
+<h3>Female Name</h3>
+<div class="textbox">Write breeder info here.</div>
+</div>
+</div>
+
+</section>
+
+<section id="care">
+<h2>Care Guide</h2>
+<div class="textbox">
+<h3>Housing</h3>
+<p>Write here.</p>
+<br>
+<h3>Feeding</h3>
+<p>Write here.</p>
+<br>
+<h3>Humidity & Temperature</h3>
+<p>Write here.</p>
+<br>
+<h3>Handling</h3>
+<p>Write here.</p>
+</div>
+</section>
+
+<section id="terms">
+<h2>Terms of Sale</h2>
+<div class="textbox">
+Write your terms of sale here.
+</div>
+</section>
+
+<footer>
+© Dragonscale Cresties – Norway
+</footer>
+
+</body>
+</html>
